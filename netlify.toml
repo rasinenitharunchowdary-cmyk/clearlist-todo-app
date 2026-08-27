@@ -1,0 +1,7 @@
+[build]
+  command = "SITE_URL=$URL npm run build"
+  publish = "dist/client"
+
+[build.environment]
+  NODE_VERSION = "22.13.0"
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
